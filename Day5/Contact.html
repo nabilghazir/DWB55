@@ -1,0 +1,54 @@
+<head>
+  <title>Form</title>
+  <link rel="stylesheet" href="./assets/CSS/style.css" />
+</head>
+
+<body>
+  <div>
+    <div>
+      <nav>
+        <div>
+          <ul>
+            <li><img src="assets/img/brandred.png" alt="Brand Logo" /></li>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="MyProject.html">My Project</a></li>
+          </ul>
+          <ul class="navright">
+            <li>
+              <a href="Contact.html"><button>CONTACT ME</button></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <div class="contact-border">
+        <h1 class="header1">GET IN TOUCH</h1>
+        <form class="form-style">
+          <label for="name">Name</label>
+          <input type="text" id="inputName" />
+
+          <label for="email">Email</label>
+          <input type="email" id="inputEmail" />
+
+          <label for="telephone">Phone</label>
+          <input type="tel" id="inputPhone" />
+
+          <label for="subject">Subject</label>
+          <select id="inputSubject">
+            <option></option>
+            <option>Blogger</option>
+            <option>Guest</option>
+            <option>Promotion</option>
+          </select>
+
+          <label for="message">Your Message</label>
+          <textarea id="inputText"></textarea>
+
+          <button type="submit" onclick="submitData(event)">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/form.js"></script>
+</body>
