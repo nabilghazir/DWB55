@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Project</title>
-    <link rel="stylesheet" href="./assets/css/nav.css" />
-    <link rel="stylesheet" href="./assets/css/ProjectStyle.css" />
+    <title>Testimonial</title>
+    <link rel="stylesheet" href="./assets/CSS/nav.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -13,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./assets/CSS/testimonial.css" />
   </head>
   <body>
     <!-- Nav -->
@@ -21,6 +21,7 @@
         <li><img src="assets/img/brandred.png" /></li>
         <li class="collapse"><a href="index.html">Home</a></li>
         <li class="collapse"><a href="myproject.html">My Project</a></li>
+        <li class="collapse"><a href="Testimonial.html">Testimonial</a></li>
       </ul>
       <div class="navright collapse">
         <a href="Contact.html">Contact Me</a>
@@ -36,39 +37,12 @@
       <a href="myproject.html" class="nav-active">My Project</a>
       <a href="Contact.html">Contact Me</a>
     </div>
-
-    <!-- Body -->
-    <div>
-      <div>
-        <div class="contact-border">
-          <h1 class="header1">GET IN TOUCH</h1>
-          <form class="form-style">
-            <label for="name">Name</label>
-            <input type="text" id="inputName" />
-
-            <label for="email">Email</label>
-            <input type="email" id="inputEmail" />
-
-            <label for="telephone">Phone</label>
-            <input type="tel" id="inputPhone" />
-
-            <label for="subject">Subject</label>
-            <select id="inputSubject">
-              <option></option>
-              <option>Blogger</option>
-              <option>Guest</option>
-              <option>Promotion</option>
-            </select>
-
-            <label for="message">Your Message</label>
-            <textarea id="inputText"></textarea>
-
-            <button type="submit" onclick="submitData(event)">Submit</button>
-          </form>
-        </div>
-      </div>
+    <div class="container">
+      <h1>My Testimonials</h1>
+      <div class="container-grid" id="container-grid"></div>
     </div>
-    <script src="./assets/js/form.js"></script>
-    <script src="./assets/js/nav.js"></script>
+
+    <script src="./assets/js/testimonial.js"></script>
+    <script src="js/nav.js"></script>
   </body>
 </html>
