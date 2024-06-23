@@ -1,6 +1,10 @@
+* {
+  margin: 0;
+}
+
 nav {
   display: flex;
-  background-color: #dbdbdb;
+  background-color: rgb(251, 221, 134);
   padding: 0px 40px;
 }
 
@@ -83,7 +87,7 @@ nav div li button {
 }
 
 .hamburger-container .nav-active {
-  background-color: #111727;
+  background-color: rgb(251, 221, 134);
   color: white;
   border-radius: 20px;
 }
@@ -97,7 +101,7 @@ nav div li button {
 
 @media only screen and (max-width: 450px) {
   nav {
-    background-color: #e2e6ea;
+    background-color: rgb(251, 221, 134);
   }
   nav ul {
     padding: 0px 10px;

@@ -126,3 +126,8 @@ textarea {
 .pltext {
   margin: 15px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -7,10 +7,10 @@ function addBlog(event) {
   let startdate = document.getElementById("start-date").value;
   let enddate = document.getElementById("end-date").value;
   let description = document.getElementById("description").value;
-  let reactjs = document.getElementById("node-js").checked;
-  let javascript = document.getElementById("next-js").checked;
-  let android = document.getElementById("react-js").checked;
-  let nodejs = document.getElementById("type-script").checked;
+  let reactjs = document.getElementById("react-js").checked;
+  let javascript = document.getElementById("js").checked;
+  let android = document.getElementById("android").checked;
+  let nodejs = document.getElementById("node-js").checked;
   let image = document.getElementById("upload-image").files;
 
   if (project === "") {
@@ -113,7 +113,7 @@ function renderBlog() {
     document.getElementById("projectlagi").innerHTML += `<div class="project1">
                 <img src="${dataBlog[index].image}" alt=""/>
                 <h3>${dataBlog[index].project}</h3>
-                <h5>Durasi: ${dataBlog[index].test}</h5> <!-- Correctly reference the duration -->
+                <h5>Durasi: ${dataBlog[index].test}</h5>
                 <h5>${dataBlog[index].description}</h5>
                 <div class="icon">
                   ${dataBlog[index].reactjs}

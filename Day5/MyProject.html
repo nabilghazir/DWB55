@@ -31,71 +31,71 @@
         <div>
 
           <!-- My Project -->
-    <div class="allbody">
-      <div class="projectbody">
-        <h1>Add My Project</h1>
-        <div>
-          <form onsubmit="addBlog(event)">
-            <div class="projectName">
-              <label for="name">Project Name</label>
-              <input type="text" id="name">
-            </div>
-
-            <div class="date">
-              <div class="startdate">
-                <label for="start-date">Start Date</label>
-                <input type="date" id="start-date">
+          <div class="allbody">
+            <div class="projectbody">
+              <h1>Add My Project</h1>
+              <div>
+                <form onsubmit="addBlog(event)">
+                  <div class="projectName">
+                    <label for="name">Project Name</label>
+                    <input type="text" id="name">
+                  </div>
+      
+                  <div class="date">
+                    <div class="startdate">
+                      <label for="start-date">Start Date</label>
+                      <input type="date" id="start-date">
+                    </div>
+      
+                    <div class="enddate">
+                      <label for="end-date">End Date</label>
+                      <input type="date" id="end-date">
+                    </div>
+                  </div>
+      
+                  <div class="desc">
+                    <label for="description">Description</label>
+                    <textarea id="description"></textarea>
+                  </div>
+      
+                  <div class="tech">
+                    <label>Technologies</label>
+                    <!-- flex 1 -->
+                    <div class="flexcheckbox">
+                      <div>
+                        <label for="node-js">Node JS</label>
+                        <input type="checkbox" id="node-js">
+                      </div>
+                      <div>
+                        <label for="js">JavaScript</label>
+                        <input type="checkbox" id="js">
+                      </div>
+                    </div>
+                    <!-- flex 2 -->
+                    <div class="flexcheckbox">
+                      <div class="flexcheckbox2">
+                        <label for="react-js">React JS</label>
+                        <input type="checkbox" id="react-js">
+                      </div>
+                      <div class="flexcheckbox2">
+                        <label for="android">Android</label>
+                        <input type="checkbox" id="android">
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="uploadImage">
+                    <label for="upload-image">Upload Image</label>
+                      <input type="file" id="upload-image" hidden>
+                  </div>
+                    <button class="submitbutton" type="submit">SUBMIT</button>
+                </form>
               </div>
-
-              <div class="enddate">
-                <label for="end-date">End Date</label>
-                <input type="date" id="end-date">
-              </div>
             </div>
-
-            <div class="desc">
-              <label for="description">Description</label>
-              <textarea id="description"></textarea>
-            </div>
-
-            <div class="tech">
-              <label>Technologies</label>
-              <!-- flex 1 -->
-              <div class="flexcheckbox">
-                <div class="nodejs">
-                  <label for="node-js">Node JS</label>
-                  <input type="checkbox" id="node-js">
-                </div>
-                <div class="nextjs">
-                  <label for="next-js">Next JS</label>
-                  <input type="checkbox" id="next-js">
-                </div>
-              </div>
-              <!-- flex 2 -->
-              <div class="flexcheckbox">
-                <div class="flexcheckbox2">
-                  <label for="react-js">React JS</label>
-                  <input type="checkbox" id="react-js">
-                </div>
-                <div class="flexcheckbox2">
-                  <label for="type-script">Type</label>
-                  <input type="checkbox" id="type-script">
-                </div>
-              </div>
-            </div>
-
-            <div class="uploadImage">
-              <label for="upload-image">Upload Image</label>
-                <input type="file" id="upload-image" hidden>
-            </div>
-              <button class="submitbutton" type="submit">SUBMIT</button>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    <hr class="line">
-
+          </div>
+      
+          <hr class="line">
+      
     <!-- projectlist -->
     <div class="projectlist">
         <h1 class="headerpl">My Project</h1>

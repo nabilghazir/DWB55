@@ -7,10 +7,10 @@ function addBlog(event) {
   let startdate = document.getElementById("start-date").value;
   let enddate = document.getElementById("end-date").value;
   let description = document.getElementById("description").value;
-  let reactjs = document.getElementById("node-js").checked;
-  let javascript = document.getElementById("next-js").checked;
-  let android = document.getElementById("react-js").checked;
-  let nodejs = document.getElementById("type-script").checked;
+  let reactjs = document.getElementById("react-js").checked;
+  let javascript = document.getElementById("js").checked;
+  let android = document.getElementById("android").checked;
+  let nodejs = document.getElementById("node-js").checked;
   let image = document.getElementById("upload-image").files;
 
   if (project === "") {
